@@ -1,3 +1,19 @@
+<h2>Bootcamp <a href="https://github.com/eduzz/mentoria-dio">Eduzz</a> - DIO</h2>
+
+<hr>
+
+</h4>Mentoria 01: Aula Inaugural: Como ser o próximo contratado pela Eduzz</h4>
+
+Apresentação do bootcamp.
+
+<hr>
+
+</h4>Mentoria 02: Carreira Eduzz: cultura e governança</h4>
+
+Como funciona o dia a dia na Eduzz.
+
+<hr>
+
 <h4>Mentoria 03 - Projeto Eduzz: Explicando o projeto Eduzz e prototipando a aplicação</h4>
 
 * [Dribbble](https://dribbble.com/) <br>
@@ -109,15 +125,15 @@ O que é Banco de Dados? Coleção organizada de informações.
 <h4>Mentoria 06 - Projeto Eduzz: Desenvolvendo o back-end da aplicação e plugando o front-end</h4>
 
 <ul>
-    <li>Sobre APIs</li>
-    <li>Primeiro endpoint (hands-on)</li>
-    <li>Funcionamento do NodeJS</li>
-    <li>Relembrando o que é Typescript</li>
-    <li>Detalhar a arquitetura do projeto</li>
+    <li>Sobre APIs;</li>
+    <li>Primeiro endpoint (hands-on);</li>
+    <li>Funcionamento do NodeJS;</li>
+    <li>Relembrando o que é Typescript;</li>
+    <li>Detalhar a arquitetura do projeto; e</li>
     <li>API funcionando!</li>
 </ul>
 
-- APIs (Application Programming Interface - Interface de Programação de Aplicação)
+APIs (Application Programming Interface - Interface de Programação de Aplicação)
 * [V8](https://v8.dev/)
 
 Dentro do diretório ```api```
@@ -126,12 +142,35 @@ docker-compose up
 ```
 
 ```
+yarn install
+```
+
+```
 yarn start
 ```
+
+[Public APIs](https://github.com/public-apis/public-apis)
 
 <hr>
 
 <h4>Mentoria 07 - Projeto Eduzz: Entendendo e utilizando serviços de mensageria</h4>
+
+- Conceitos sobre processamento assíncrono;
+- Message Brokers;
+- Funcionamento do RabbitMQ;
+- Aplicação prática;
+- Nova arquitetura do projeto; e
+- Esqueci minha senha funcionando!
+
+O que é assíncrono? <br>
+Um processo assíncrono é um processo ou função que executa uma tarefa "em segundo plano", sem que o usuário precise esperar que a tarefa termine. <br><br>
+
+Message Brokers <br>
+É quem define para qual fila vai a mensagem <br>
+Filas - Message Brokers - Eventos <br>
+RabbitMQ, Redis e Amazon SQS <br><br>
+
+[RabbitMQ Simulator](http://tryrabbitmq.com/)
 
 <hr>
 
