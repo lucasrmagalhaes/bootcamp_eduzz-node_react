@@ -178,14 +178,14 @@ RabbitMQ, Redis e Amazon SQS <br>
 
 ##### O que é nuvem?
 
-O termo nuvem é o nome dado à tecnologia que permite a distribuição de serviços de computação e o acesso online a eles sem a necessidade de instalar programas. Justamente por não necessitar da instalação de programas, ou do armanezamento de dados, o conceito originado do inglês cloud computing faz alusão à "nuvem". <br><br>
+O termo nuvem é o nome dado à tecnologia que permite a distribuição de serviços de computação e o acesso online a eles sem a necessidade de instalar programas. Justamente por não necessitar da instalação de programas, ou do armanezamento de dados, o conceito originado do inglês cloud computing faz alusão à "nuvem". <br>
 
-**Alguns serviços na nuvem:** Spotify, Youtube, Facebook, Instagram, Dropbox e Google Docs. <br><br>
+**Alguns serviços na nuvem:** Spotify, Youtube, Facebook, Instagram, Dropbox e Google Docs. <br>
 
 ##### Provedores de Cloud vs Meu Servidor 
 
 No meu servidor, tudo eu tenho que fazer, na nuvem eu tenho a possibilidade de tudo ser gerenciado pelo provedor escolhido. <br>
-Limitação de recurso: estou limitado ao poder computacional da máquina contratada (contratações de novas máquinas pode levar tempo). <br><br>
+Limitação de recurso: estou limitado ao poder computacional da máquina contratada (contratações de novas máquinas pode levar tempo). <br>
 
 ##### Benefícios dos Serviços de Cloud
 
@@ -232,3 +232,9 @@ Basicamente é o serviço de armazenamento de imagens de contêineres da AWS. Vo
 Faz a orquestração dos nossos contêineres baseado nas configurações que definimos para eles. Ele é o serviço responsável pela escalabilidade da nossa aplicação. <br>
 
 [Calculator API](https://github.com/tgbaldo/dio-calculator-api)
+
+<hr>
+
+<h4>Mentoria 09 - Projeto Eduzz: Retire todas as dúvidas encontradas no desenvolvimento do projeto</h4>
+
+Dicas/Conselhos e os bastidores de um DEV na Eduzz.
