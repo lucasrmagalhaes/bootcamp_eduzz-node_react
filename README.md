@@ -6,13 +6,13 @@
 * [Figma](https://www.figma.com/) <br>
 * [Houston](https://eduzz.github.io/houston/)
 
-- Exemplo de Projeto no Figma.
+Exemplo de Projeto no Figma.
 
 <hr>
 
 <h4>Mentoria 04 - Projeto Eduzz: Componentizando a aplicação e criando interfaces responsivas</h4>
 
-- Principios importantes
+Principios importantes
 
 <ol>
     <li>Estrutura de pastas</li>
@@ -20,7 +20,7 @@
     <li>Entender o framework e a linguagem</li>
 </ol>
 
-- Frameworks recomendados
+Frameworks recomendados
 
 <ol>
     <li>Redux Toolkit - Gerenciamento do Estado</li>
@@ -33,9 +33,9 @@
 
 <h4>Mentoria 05 - Projeto Eduzz: Criando a base de dados para suportar a aplicação</h4>
 
-- O que é Banco de Dados? Coleção organizada de informações.
+O que é Banco de Dados? Coleção organizada de informações.
 
-- Tipos
+##### Tipos
 
 <ul>
     <li>Bancos de dados relacionais</li>
@@ -44,7 +44,7 @@
     <li>Bancos de dados gráficos</li>
 </ul>
 
-- Banco relacional
+##### Banco relacional
 
 <ul>
     <li>MySQL, MariaDB, Postgree, SQLServer, SQLite3</li>
@@ -55,7 +55,7 @@
     <li>Dados bem definidos</li>
 </ul>
 
-- Não relacional
+##### Não relacional
 
 <ul>
     <li>Firebase, MongoDB, ElasticSearch, Redis, Cassandra, DynamoDB...</li>
@@ -66,7 +66,7 @@
     <li>Não tem uma forma padrão de recuperação de dados</li>
 </ul>
 
-- Chave primária
+##### Chave primária
 
 <ul>
     <li>Identificador único de um registro na tabela</li>
@@ -74,14 +74,14 @@
     <li>Não podem ser simples ou compostas</li>
 </ul>
 
-- Chave estrangeira
+##### Chave estrangeira
 
 <ul>
     <li>Chave primária de outra tabela, ou dela mesma</li>
     <li>Pode ser NULL</p>
 </ul>
 
-- Clientes de BD
+##### Clientes de BD
 
 <ul>
     <li>MySQL Workbench</li>
@@ -89,7 +89,7 @@
     <li>HeidiSQL</p>
 </ul>
 
-- Migration
+##### Migration
 
 <ul>
     <li>Versiona o schema da aplicação</li>
@@ -97,7 +97,7 @@
     <li>Pode ser adicionada ao deploy automático</p>
 </ul>
 
-- Seeds
+##### Seeds
 
 <ul>
     <li>Pode ser usada para DADOS DE TESTE ou valores PRÉ DEFINIDO</li>
@@ -118,6 +118,16 @@
 </ul>
 
 - APIs (Application Programming Interface - Interface de Programação de Aplicação)
+* [V8](https://v8.dev/)
+
+Dentro do diretório ```api```
+```
+docker-compose up
+```
+
+```
+yarn start
+```
 
 <hr>
 
