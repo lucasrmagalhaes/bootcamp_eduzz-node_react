@@ -1,14 +1,14 @@
-<h2>Bootcamp <a href="https://github.com/eduzz/mentoria-dio">Eduzz</a> - DIO</h2>
+<h3>Bootcamp <a href="https://github.com/eduzz/mentoria-dio">Eduzz</a> - DIO | <a href="https://github.com/lucasrmagalhaes/homework-issues/issues?q=is%3Aissue+label%3AEduzz+is%3Aclosed">Issues</a></h3>
 
 <hr>
 
-</h4>Mentoria 01: Aula Inaugural: Como ser o próximo contratado pela Eduzz</h4>
+<h4>Mentoria 01: Aula Inaugural: Como ser o próximo contratado pela Eduzz</h4>
 
 Apresentação do bootcamp.
 
 <hr>
 
-</h4>Mentoria 02: Carreira Eduzz: cultura e governança</h4>
+<h4>Mentoria 02: Carreira Eduzz: cultura e governança</h4>
 
 Como funciona o dia a dia na Eduzz.
 
@@ -49,7 +49,7 @@ Frameworks recomendados
 
 <h4>Mentoria 05 - Projeto Eduzz: Criando a base de dados para suportar a aplicação</h4>
 
-O que é Banco de Dados? Coleção organizada de informações.
+**O que é Banco de Dados?** Coleção organizada de informações.
 
 ##### Tipos
 
@@ -133,8 +133,8 @@ O que é Banco de Dados? Coleção organizada de informações.
     <li>API funcionando!</li>
 </ul>
 
-APIs (Application Programming Interface - Interface de Programação de Aplicação)
-* [V8](https://v8.dev/)
+**APIs (Application Programming Interface - Interface de Programação de Aplicação)** <br>
+[V8](https://v8.dev/)
 
 Dentro do diretório ```api```
 ```
@@ -163,15 +163,72 @@ yarn start
 - Esqueci minha senha funcionando!
 
 O que é assíncrono? <br>
-Um processo assíncrono é um processo ou função que executa uma tarefa "em segundo plano", sem que o usuário precise esperar que a tarefa termine. <br><br>
+Um processo assíncrono é um processo ou função que executa uma tarefa "em segundo plano", sem que o usuário precise esperar que a tarefa termine. <br>
 
-Message Brokers <br>
+**Message Brokers** <br>
 É quem define para qual fila vai a mensagem <br>
 Filas - Message Brokers - Eventos <br>
-RabbitMQ, Redis e Amazon SQS <br><br>
+RabbitMQ, Redis e Amazon SQS <br>
 
 [RabbitMQ Simulator](http://tryrabbitmq.com/)
 
 <hr>
 
 <h4>Mentoria 08 - Projeto Eduzz: Vislumbrando possibilidades de integração da aplicação com a nuvem</h4>
+
+##### O que é nuvem?
+
+O termo nuvem é o nome dado à tecnologia que permite a distribuição de serviços de computação e o acesso online a eles sem a necessidade de instalar programas. Justamente por não necessitar da instalação de programas, ou do armanezamento de dados, o conceito originado do inglês cloud computing faz alusão à "nuvem". <br><br>
+
+**Alguns serviços na nuvem:** Spotify, Youtube, Facebook, Instagram, Dropbox e Google Docs. <br><br>
+
+##### Provedores de Cloud vs Meu Servidor 
+
+No meu servidor, tudo eu tenho que fazer, na nuvem eu tenho a possibilidade de tudo ser gerenciado pelo provedor escolhido. <br>
+Limitação de recurso: estou limitado ao poder computacional da máquina contratada (contratações de novas máquinas pode levar tempo). <br><br>
+
+##### Benefícios dos Serviços de Cloud
+
+**Escalabilidade:** Capacidade de um Sistema em adicionar ou remover recursos de maneira autônama sem interrupções. <br>
+**Gerenciamento:** Os serviços são gerenciados pelo provedor para que você ponha esforço no seu produto. <br>
+**Custo:** Normalmente os serviços contratados são cobrados por tempo de execução, armazenamento, e cosutumam ser baratos. <br>
+**Confiabilidade:** Facilita e reduz os custos de backup de dados, recuperação de desastre e continuidade dos negócios, já que os dados podem ser espelhados em diversos sites redundantes na rede do provedor em nuvem. <br>
+**Segurança:** Os provedores em nuvem oferecem um amplo conjunto de políticas, tecnlogias e controles que fortalecem a segurança, ajudando a proteger os dados, os aplicativos e a infraestrutura contra possíveis ameaças. <br>
+
+Diversos serviços para surpotarem seu produto:
+
+<ol>
+    <li>Banco de Dados</li>
+    <li>Caching</li>
+    <li>Armazenamento</li>
+    <li>Backup</li>
+    <li>Rede</li>
+    <li>Monitoramento</li>
+    <li>DNS</li>
+    <li>CDN</li>
+    <li>Autenticação/Autorização</li>
+    <li>Inteligência Artificial</li>
+    <li>Blockchain</li>
+    <li>Contâineres</li>
+    <li>Deploy</li>
+    <li>Etc, etc, etc...</li>
+</ol>
+
+**Provedores de serviços de nuvem:** Amazon Web Services, Azure, Google Cloud Platform, Heroku, Vercel e Digital Ocean. <br>
+
+**Serviços que vamos usar:**
+- AWS RDS
+- AWS ECR
+- AWS ECS
+- GitHub Actions
+
+[RDS](https://aws.amazon.com/pt/rds/) <br>
+É o serviço de banco de dados da AWS. É nele que criamos as nossas instâncias de banco de dados. É um serviço AWS e suporta uma gama de banco de dados relacionais. <br>
+
+[ECR](https://aws.amazon.com/pt/ecr/) <br>
+Basicamente é o serviço de armazenamento de imagens de contêineres da AWS. Você também pode usar outros serviços fora da nuvem da AWS, como o <a href="https://hub.docker.com">Docker Hub</a>. <br>
+
+[ECS](https://aws.amazon.com/pt/ecs/) <br>
+Faz a orquestração dos nossos contêineres baseado nas configurações que definimos para eles. Ele é o serviço responsável pela escalabilidade da nossa aplicação. <br>
+
+[Calculator API](https://github.com/tgbaldo/dio-calculator-api)
